@@ -1,8 +1,8 @@
 import React ,{useState} from 'react'
 
+
 import MovieCard from './MovieCard';
 import AddModal from './AddModal';
-import Details from './Details';
 
 const MovieList = ({movies ,addNewMovie}) => {
     
@@ -19,9 +19,8 @@ const MovieList = ({movies ,addNewMovie}) => {
                </MovieCard>
                )} 
         </div>
-        
         </div>
-    )
+      )   
 }
 
 export default MovieList

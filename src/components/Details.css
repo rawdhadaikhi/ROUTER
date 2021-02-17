@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.container-details{
+    box-sizing: border-box;
+    width: auto;
+    margin:0% 0%;
+}
+.child-details{
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.details{
+  color: white;
+  margin-top: 10px;
+
+}
+.title-movie{
+    font-size: 2rem;
+}
+.description-movie{
+    font-size: 0.7rem;
+  padding-bottom: 20px;
+  margin-left:150px;
+  margin-right:150px;
+}
+.my-iframe
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-bottom: 20px;
+}
+
+.goback-btn{
+    background-color:orange;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto ;
+    font-size: bold;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 5px;
+
+}
